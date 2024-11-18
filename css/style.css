@@ -3,7 +3,10 @@
 .wrap{
     width: 1000px;
     margin: 0 auto;
-    background-color: bisque;
+    /* background-color: bisque; */
+}
+
+.logo {
     text-align: center;
 }
 
@@ -16,6 +19,7 @@
     width: 606px;
     margin: 0 auto;
     /* 사진, 영상 등 큰 덩어리를 가로 가운데로 */
+    text-align: center;
 }
 
 .title {
@@ -23,8 +27,38 @@
     /* 제목, 내용 텍스트를 가로 가운데로 */
 }
 
-#header {
-    width: 1000px;
-    margin: 0 auto;
+#footer {
     text-align: center;
+}
+.brand_text{
+    text-align: center;
+    border: 2px solid #333;
+    width: 400px;
+    margin: 30px auto;
+    padding: 15px;
+    font-size: 20px;
+    text-transform: uppercase;
+    /* text-transform: uppercase; = 텍스트-변형 */
+    /* magin: 0 atuo;은 개체의 부모개체의 크기 안에서 공백 정렬 */
+    /* padding은 개체의 크기 안에서 값만큼 공백 정렬 */
+
+}
+
+.nav {
+    text-align: center;
+}
+
+.delivery {
+    text-align: center;
+}
+
+.contact {
+    text-align: center;
+}
+
+.copyright {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 30px 0;
 }
