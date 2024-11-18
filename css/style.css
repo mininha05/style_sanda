@@ -67,7 +67,7 @@
 1rem = 16px  (r:em - root element 조상, r:em과 em은 다름)
 @media screen - 스크린이 있는 미디어에서, (mid-width: 40rem) - 최소 40rem이 넘으면*/
 /* min과 max의 코드 변화시 값 크기만큼의 순서 변경 필요 */
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 450px) {
   body {    
   }
   img,
