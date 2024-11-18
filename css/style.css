@@ -14,10 +14,20 @@
 .new {
     width: 606px;
     margin: 0 auto;
+    text-align: center;
     /* 사진, 영상 등 큰 덩어리를 가로 가운데로 */
 }
 
 .title {
     text-align: center;
     /* 제목, 내용 텍스트를 가로 가운데로 */
+}
+
+.nav {
+    text-align: center;
+}
+
+.logo {
+    width: 100px;
+    margin: 0 auto;
 }
