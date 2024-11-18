@@ -90,6 +90,7 @@
   .nav a {
     background-color: #ffbe98;
     color: white;
+    text-decoration: none;
   }
 
   .nav a:hover {
